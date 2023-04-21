@@ -14,7 +14,7 @@ from tf2_ros import TransformException, TransformBroadcaster
 from tf2_ros.buffer import Buffer
 from tf2_ros.transform_listener import TransformListener
 
-from .ImageNodeBase import ImageNodeBase
+from am_ros2_perception.ImageNodeBase import ImageNodeBase
 from .ArucoBoardDetector import ArucoBoardDetector
 
 
