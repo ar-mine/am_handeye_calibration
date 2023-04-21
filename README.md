@@ -1,6 +1,10 @@
 # am_handeye_calibration
 A ROS2 package for hand-eye calibration.
 
+## Dependencies
+`git clone git@github.com:ar-mine/am_ros2_perception.git`
+`colcon build --symlink-install`
+
 ## Instruction
 1. Run camera node. (Use default topic names "/camera/color/image_raw" of realsense.)
 2. Run rqt_image_view as monitor.
@@ -15,3 +19,4 @@ A ROS2 package for hand-eye calibration.
 3. Simplify topic sender as GUI button (add a check mechanism for not +1).
 4. Add list for choosing different solver algorithm.
 5. Backend optimization?
+6. Update package dependencies.
